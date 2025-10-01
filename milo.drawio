@@ -1,0 +1,311 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:143.0) Gecko/20100101 Firefox/143.0" version="28.2.5">
+  <diagram name="Page-1" id="3Cz9BtENcpmSYqlnoaGu">
+    <mxGraphModel dx="781" dy="994" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="L8F5DkrWqysse9UtF6Yw-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;" parent="1" source="L8F5DkrWqysse9UtF6Yw-3" target="L8F5DkrWqysse9UtF6Yw-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L8F5DkrWqysse9UtF6Yw-2" value="configs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;" parent="L8F5DkrWqysse9UtF6Yw-1" vertex="1" connectable="0">
+          <mxGeometry x="-0.1143" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8F5DkrWqysse9UtF6Yw-3" value="ConfigLoader" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;fillColor=#dae8fc;strokeColor=light-dark(#6c8ebf, #ffffff);" parent="1" vertex="1">
+          <mxGeometry x="909.818181818182" y="46.63636363636374" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L8F5DkrWqysse9UtF6Yw-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;" parent="1" source="L8F5DkrWqysse9UtF6Yw-6" target="L8F5DkrWqysse9UtF6Yw-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L8F5DkrWqysse9UtF6Yw-5" value="Creates&amp;nbsp;&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;" parent="L8F5DkrWqysse9UtF6Yw-4" vertex="1" connectable="0">
+          <mxGeometry x="-0.0968" y="3" relative="1" as="geometry">
+            <mxPoint x="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8F5DkrWqysse9UtF6Yw-6" value="&lt;div&gt;SystemCoordinator&lt;/div&gt;&lt;div&gt;(Observer/FSM)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;fillColor=#dae8fc;strokeColor=light-dark(#6C8EBF,#FFFFFF);" parent="1" vertex="1">
+          <mxGeometry x="1120.818181818182" y="46.63636363636374" width="143" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L8F5DkrWqysse9UtF6Yw-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;" parent="1" source="L8F5DkrWqysse9UtF6Yw-9" target="L8F5DkrWqysse9UtF6Yw-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L8F5DkrWqysse9UtF6Yw-8" value="unique_ptr" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;" parent="L8F5DkrWqysse9UtF6Yw-7" vertex="1" connectable="0">
+          <mxGeometry x="-0.3218" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8F5DkrWqysse9UtF6Yw-9" value="&lt;div&gt;ProtocolFactory&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;fillColor=#dae8fc;strokeColor=light-dark(#6C8EBF,#FFFFFF);" parent="1" vertex="1">
+          <mxGeometry x="1120.818181818182" y="168.63636363636374" width="143" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L8F5DkrWqysse9UtF6Yw-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;" parent="1" source="L8F5DkrWqysse9UtF6Yw-12" target="L8F5DkrWqysse9UtF6Yw-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1224" y="297" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wuinbvcQNcI12IDQVp3t-40" value="SPSCRingBugger&amp;lt;Cmd&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;" parent="L8F5DkrWqysse9UtF6Yw-11" vertex="1" connectable="0">
+          <mxGeometry x="0.1621" relative="1" as="geometry">
+            <mxPoint x="-4" y="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wuinbvcQNcI12IDQVp3t-41" value="Producer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;" parent="L8F5DkrWqysse9UtF6Yw-11" vertex="1" connectable="0">
+          <mxGeometry x="-0.688" relative="1" as="geometry">
+            <mxPoint x="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wuinbvcQNcI12IDQVp3t-42" value="Consumer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;" parent="L8F5DkrWqysse9UtF6Yw-11" vertex="1" connectable="0">
+          <mxGeometry x="0.4641" y="-2" relative="1" as="geometry">
+            <mxPoint x="1" y="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wuinbvcQNcI12IDQVp3t-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;" parent="1" source="L8F5DkrWqysse9UtF6Yw-12" target="L8F5DkrWqysse9UtF6Yw-39" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wuinbvcQNcI12IDQVp3t-51" value="Consumer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;" parent="wuinbvcQNcI12IDQVp3t-48" vertex="1" connectable="0">
+          <mxGeometry x="0.9209" y="2" relative="1" as="geometry">
+            <mxPoint y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8F5DkrWqysse9UtF6Yw-12" value="&lt;div&gt;ExperimentProtocol&lt;/div&gt;&lt;div&gt;(Subject/FSM)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;strokeColor=light-dark(#6c8ebf, #f6f5f4);fillColor=#dae8fc;" parent="1" vertex="1">
+          <mxGeometry x="1296.818181818182" y="241.63636363636374" width="143" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L8F5DkrWqysse9UtF6Yw-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;" parent="1" source="L8F5DkrWqysse9UtF6Yw-16" target="L8F5DkrWqysse9UtF6Yw-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1652" y="405" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wuinbvcQNcI12IDQVp3t-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;startArrow=classic;startFill=1;" parent="1" source="L8F5DkrWqysse9UtF6Yw-16" target="L8F5DkrWqysse9UtF6Yw-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wuinbvcQNcI12IDQVp3t-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;" parent="1" source="L8F5DkrWqysse9UtF6Yw-16" target="L8F5DkrWqysse9UtF6Yw-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1368" y="378" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8F5DkrWqysse9UtF6Yw-16" value="RPCManager" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;fillColor=#ffe6cc;strokeColor=light-dark(#d79b00, #f6f5f4);" parent="1" vertex="1">
+          <mxGeometry x="1150.998181818182" y="364.99636363636375" width="143" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L8F5DkrWqysse9UtF6Yw-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;" parent="1" source="L8F5DkrWqysse9UtF6Yw-18" target="L8F5DkrWqysse9UtF6Yw-20" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1502" y="568" />
+              <mxPoint x="1502" y="568" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8F5DkrWqysse9UtF6Yw-18" value="ErrorMonitor" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;fillColor=#f8cecc;strokeColor=light-dark(#F5F5F5,#FFFFFF);" parent="1" vertex="1">
+          <mxGeometry x="1577.998181818182" y="535.3563636363638" width="143" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wuinbvcQNcI12IDQVp3t-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;" parent="1" source="L8F5DkrWqysse9UtF6Yw-20" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="945.5172413793103" y="567.9963636363636" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wuinbvcQNcI12IDQVp3t-50" value="Producer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;" parent="wuinbvcQNcI12IDQVp3t-49" vertex="1" connectable="0">
+          <mxGeometry x="-0.6794" y="3" relative="1" as="geometry">
+            <mxPoint x="-7" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8F5DkrWqysse9UtF6Yw-20" value="SystemCoordinator" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;fillColor=#dae8fc;strokeColor=light-dark(#6C8EBF,#FFFFFF);" parent="1" vertex="1">
+          <mxGeometry x="1075.998181818182" y="537.9963636363638" width="143" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L8F5DkrWqysse9UtF6Yw-21" value="Producer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="1327.998181818182" y="409.99636363636375" as="geometry">
+            <mxPoint x="1" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8F5DkrWqysse9UtF6Yw-22" value="Consumer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="1653.498181818182" y="508.99636363636375" as="geometry">
+            <mxPoint x="-1" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8F5DkrWqysse9UtF6Yw-23" value="Producer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="1542.998181818182" y="566.3563636363638" as="geometry" />
+        </mxCell>
+        <mxCell id="L8F5DkrWqysse9UtF6Yw-24" value="SPSCRingBugger&amp;lt;ErrorEvent&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="1407.998181818182" y="565.3563636363638" as="geometry" />
+        </mxCell>
+        <mxCell id="L8F5DkrWqysse9UtF6Yw-25" value="Consumer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="1265.998181818182" y="567.9963636363638" as="geometry" />
+        </mxCell>
+        <mxCell id="L8F5DkrWqysse9UtF6Yw-27" value="&lt;div&gt;Serial IO&#39;s&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;fillColor=#ffe6cc;strokeColor=light-dark(#d79b00, #f6f5f4);" parent="1" vertex="1">
+          <mxGeometry x="970.768181818182" y="364.99636363636375" width="143" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L8F5DkrWqysse9UtF6Yw-29" value="MPSCQueue&amp;lt;FaultSignal&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="1656.998181818182" y="394.99636363636375" as="geometry">
+            <mxPoint x="-11" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8F5DkrWqysse9UtF6Yw-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;" parent="1" source="L8F5DkrWqysse9UtF6Yw-35" target="L8F5DkrWqysse9UtF6Yw-43" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2093" y="286" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wuinbvcQNcI12IDQVp3t-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;" parent="1" source="L8F5DkrWqysse9UtF6Yw-35" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1649.498181818182" y="398.42857142857144" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1649" y="336" />
+              <mxPoint x="1649" y="336" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wuinbvcQNcI12IDQVp3t-35" value="Producer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;" parent="wuinbvcQNcI12IDQVp3t-1" vertex="1" connectable="0">
+          <mxGeometry x="-0.5776" y="1" relative="1" as="geometry">
+            <mxPoint y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wuinbvcQNcI12IDQVp3t-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;" parent="1" source="L8F5DkrWqysse9UtF6Yw-35" target="L8F5DkrWqysse9UtF6Yw-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1475" y="53.91489361702128" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1653" y="62" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wuinbvcQNcI12IDQVp3t-52" value="atomic&amp;lt;UiCommand&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;" parent="wuinbvcQNcI12IDQVp3t-32" vertex="1" connectable="0">
+          <mxGeometry x="0.3767" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wuinbvcQNcI12IDQVp3t-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;" parent="1" source="L8F5DkrWqysse9UtF6Yw-35" target="wuinbvcQNcI12IDQVp3t-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L8F5DkrWqysse9UtF6Yw-35" value="UIController" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;fillColor=#e1d5e7;strokeColor=light-dark(#9673A6,#FFFFFF);" parent="1" vertex="1">
+          <mxGeometry x="1593.498181818182" y="241.99636363636375" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L8F5DkrWqysse9UtF6Yw-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;" parent="1" source="L8F5DkrWqysse9UtF6Yw-37" target="L8F5DkrWqysse9UtF6Yw-35" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1775" y="257" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8F5DkrWqysse9UtF6Yw-37" value="RotaryEncoderInput" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;fillColor=#e1d5e7;strokeColor=light-dark(#9673A6,#FFFFFF);" parent="1" vertex="1">
+          <mxGeometry x="1709.998181818182" y="46.636363636363754" width="143" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L8F5DkrWqysse9UtF6Yw-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;" parent="1" source="L8F5DkrWqysse9UtF6Yw-39" target="L8F5DkrWqysse9UtF6Yw-44" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L8F5DkrWqysse9UtF6Yw-39" value="Logger" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;fillColor=#d5e8d4;strokeColor=light-dark(#82B366,#FFFFFF);" parent="1" vertex="1">
+          <mxGeometry x="883.9981818181818" y="651.9963636363638" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L8F5DkrWqysse9UtF6Yw-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;" parent="1" source="L8F5DkrWqysse9UtF6Yw-42" target="L8F5DkrWqysse9UtF6Yw-35" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1947" y="272" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L8F5DkrWqysse9UtF6Yw-42" value="ButtonGPIOInpput" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;fillColor=#e1d5e7;strokeColor=light-dark(#9673A6,#FFFFFF);" parent="1" vertex="1">
+          <mxGeometry x="1878.998181818182" y="46.636363636363754" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L8F5DkrWqysse9UtF6Yw-43" value="TFTDisplay" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;fillColor=#e1d5e7;strokeColor=light-dark(#9673A6,#FFFFFF);" parent="1" vertex="1">
+          <mxGeometry x="2025.9981818181823" y="46.636363636363754" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L8F5DkrWqysse9UtF6Yw-44" value="FileLogger IO" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;fillColor=#d5e8d4;strokeColor=light-dark(#82B366,#FFFFFF);" parent="1" vertex="1">
+          <mxGeometry x="883.9981818181818" y="754.9963636363638" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wuinbvcQNcI12IDQVp3t-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;" parent="1" source="wuinbvcQNcI12IDQVp3t-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1724" y="404.6399999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wuinbvcQNcI12IDQVp3t-36" value="Producer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;" parent="wuinbvcQNcI12IDQVp3t-3" vertex="1" connectable="0">
+          <mxGeometry x="-0.085" y="1" relative="1" as="geometry">
+            <mxPoint x="11" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wuinbvcQNcI12IDQVp3t-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;" parent="1" source="wuinbvcQNcI12IDQVp3t-2" target="wuinbvcQNcI12IDQVp3t-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wuinbvcQNcI12IDQVp3t-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;" parent="1" source="wuinbvcQNcI12IDQVp3t-2" target="wuinbvcQNcI12IDQVp3t-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2070" y="417" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wuinbvcQNcI12IDQVp3t-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;" parent="1" source="wuinbvcQNcI12IDQVp3t-2" target="wuinbvcQNcI12IDQVp3t-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2203" y="398" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wuinbvcQNcI12IDQVp3t-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;" parent="1" source="wuinbvcQNcI12IDQVp3t-2" target="wuinbvcQNcI12IDQVp3t-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2338" y="383" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wuinbvcQNcI12IDQVp3t-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;" parent="1" source="wuinbvcQNcI12IDQVp3t-2" target="wuinbvcQNcI12IDQVp3t-26" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1937" y="354" />
+              <mxPoint x="2477" y="354" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wuinbvcQNcI12IDQVp3t-2" value="ThreadHeartBeatProb" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;" parent="1" vertex="1">
+          <mxGeometry x="1827" y="374.64" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wuinbvcQNcI12IDQVp3t-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;" parent="1" source="wuinbvcQNcI12IDQVp3t-4" target="L8F5DkrWqysse9UtF6Yw-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1485" y="272" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wuinbvcQNcI12IDQVp3t-4" value="&lt;div&gt;ParameterStore&lt;/div&gt;&lt;div&gt;(Mutex Guarded)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;" parent="1" vertex="1">
+          <mxGeometry x="1458" y="144" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wuinbvcQNcI12IDQVp3t-8" value="Protocol Thread" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;" parent="1" vertex="1">
+          <mxGeometry x="1851" y="535" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wuinbvcQNcI12IDQVp3t-10" value="Logger Thread" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;" parent="1" vertex="1">
+          <mxGeometry x="2005" y="537" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wuinbvcQNcI12IDQVp3t-12" value="Error Monitor Thread" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=none;fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;" parent="1" vertex="1">
+          <mxGeometry x="2137.5" y="537" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wuinbvcQNcI12IDQVp3t-14" value="UI Thread" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=none;fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;" parent="1" vertex="1">
+          <mxGeometry x="2273" y="537" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wuinbvcQNcI12IDQVp3t-23" value="SPSCRingBugger&amp;lt;LogEvent&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="933.9965217391305" y="567" as="geometry" />
+        </mxCell>
+        <mxCell id="wuinbvcQNcI12IDQVp3t-24" value="Producer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="1263.8134782608695" y="272" as="geometry" />
+        </mxCell>
+        <mxCell id="wuinbvcQNcI12IDQVp3t-26" value="Serial IO Thread" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;fillColor=#ffe6cc;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="2412" y="537" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wuinbvcQNcI12IDQVp3t-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.999;entryY=0.678;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;startArrow=classic;startFill=1;" parent="1" source="L8F5DkrWqysse9UtF6Yw-12" target="L8F5DkrWqysse9UtF6Yw-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wuinbvcQNcI12IDQVp3t-45" value="SPSCRingBugger&amp;lt;Cmd&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="1361" y="351" as="geometry" />
+        </mxCell>
+        <mxCell id="wuinbvcQNcI12IDQVp3t-46" value="Producer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="1345" y="374.64" as="geometry">
+            <mxPoint x="-16" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wuinbvcQNcI12IDQVp3t-47" value="Consumer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="1373" y="330" as="geometry">
+            <mxPoint x="-5" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
