@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:143.0) Gecko/20100101 Firefox/143.0" version="28.2.5">
   <diagram name="Page-1" id="3Cz9BtENcpmSYqlnoaGu">
-    <mxGraphModel dx="781" dy="994" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="-104" dy="454" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -128,7 +128,7 @@
           <mxGeometry x="1542.998181818182" y="566.3563636363638" as="geometry" />
         </mxCell>
         <mxCell id="L8F5DkrWqysse9UtF6Yw-24" value="SPSCRingBugger&amp;lt;ErrorEvent&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="1407.998181818182" y="565.3563636363638" as="geometry" />
+          <mxGeometry x="1407.998181818182" y="566.3563636363638" as="geometry" />
         </mxCell>
         <mxCell id="L8F5DkrWqysse9UtF6Yw-25" value="Consumer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=JetBrains Mono;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DJetBrains%2BMono;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="1265.998181818182" y="567.9963636363638" as="geometry" />
